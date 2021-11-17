@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{004E21BB-B316-46FC-AA99-F8507BA3E689}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Correos.SimuladorOfertas.Business</RootNamespace>
+    <AssemblyName>Correos.SimuladorOfertas.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\References\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>..\References\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>..\References\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnexoBL.cs" />
+    <Compile Include="CaracteristicasBL.cs" />
+    <Compile Include="ClienteBL.cs" />
+    <Compile Include="CoeficienteBL.cs" />
+    <Compile Include="ConfiguracionCaracteristicasBL.cs" />
+    <Compile Include="ConfiguracionGruposTramoBL.cs" />
+    <Compile Include="ConfiguracionProductosBL.cs" />
+    <Compile Include="AgrupacionBL.cs" />
+    <Compile Include="EstadoSincronizacionBL.cs" />
+    <Compile Include="RelacionProductosBL.cs" />
+    <Compile Include="CredencialesBL.cs" />
+    <Compile Include="CubicajeBL.cs" />
+    <Compile Include="DescuentoBL.cs" />
+    <Compile Include="DestinoBL.cs" />
+    <Compile Include="EstadoOfertaBL.cs" />
+    <Compile Include="GestionDatosMaestrosBL.cs" />
+    <Compile Include="GestorBaseDatosBL.cs" />
+    <Compile Include="GestorFicherosLogBL.cs" />
+    <Compile Include="GradosBL.cs" />
+    <Compile Include="InformacionDestinosBL.cs" />
+    <Compile Include="InformesBL.cs" />
+    <Compile Include="ListaPreciosBL.cs" />
+    <Compile Include="PotencialidadBL.cs" />
+    <Compile Include="ProductoBL.cs" />
+    <Compile Include="OfertaBL.cs" />
+    <Compile Include="ProductoOfertaBL.cs" />
+    <Compile Include="ProductoSAPBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ModalidadNegociacionProductoSAPBL.cs" />
+    <Compile Include="ProspectoBL.cs" />
+    <Compile Include="RangoPoblacionD2BL.cs" />
+    <Compile Include="SSOHelper.cs" />
+    <Compile Include="TarifaBL.cs" />
+    <Compile Include="TipologiaClienteBL.cs" />
+    <Compile Include="TramoBL.cs" />
+    <Compile Include="TramoInformeBL.cs" />
+    <Compile Include="ValidacionesBL.cs" />
+    <Compile Include="VersionesDataBaseBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Correos.SimuladorOfertas.Common\Correos.SimuladorOfertas.Common.csproj">
+      <Project>{856ca810-4010-4eb5-94c7-2aa28c4017cf}</Project>
+      <Name>Correos.SimuladorOfertas.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Correos.SimuladorOfertas.DTOs\Correos.SimuladorOfertas.DTOs.csproj">
+      <Project>{1e758875-1dd4-44a0-a033-5c6d118f81c0}</Project>
+      <Name>Correos.SimuladorOfertas.DTOs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Correos.SimuladorOfertas.InOutHeavy\Correos.SimuladorOfertas.InOutHeavy.csproj">
+      <Project>{8a35ba6d-50b2-4e3f-8aa4-d79f185acb04}</Project>
+      <Name>Correos.SimuladorOfertas.InOutHeavy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Correos.SimuladorOfertas.InOutLight\Correos.SimuladorOfertas.InOutLight.csproj">
+      <Project>{6bfd228e-e82f-453e-9f59-eaff5d2ed403}</Project>
+      <Name>Correos.SimuladorOfertas.InOutLight</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Correos.SimuladorOfertas.Persistence\Correos.SimuladorOfertas.Persistence.csproj">
+      <Project>{ead8a910-6a94-4108-8ea9-6c99eabdbbe8}</Project>
+      <Name>Correos.SimuladorOfertas.Persistence</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Business.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Business.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Common.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Common.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Context.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Context.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.DTOs.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.DTOs.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.InOutHeavy.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.InOutHeavy.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.InOutLight.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.InOutLight.pdb" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Persistence.dll" />
+    <Content Include="bin\Debug\Correos.SimuladorOfertas.Persistence.pdb" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\itextsharp.dll" />
+    <Content Include="bin\Debug\log4net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

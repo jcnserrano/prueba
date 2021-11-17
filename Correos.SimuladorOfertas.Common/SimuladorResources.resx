@@ -1,0 +1,1606 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PuntosTxT" xml:space="preserve">
+    <value>Puntos</value>
+  </data>
+  <data name="IntroduceNumeroEnvios" xml:space="preserve">
+    <value>Introduce el número de envíos.</value>
+  </data>
+  <data name="DebeSeleccionarTramosCorrectos" xml:space="preserve">
+    <value>Debe seleccionar tramos correctos.</value>
+  </data>
+  <data name="ErrorSincronizarOfertaEstadoSincronizado" xml:space="preserve">
+    <value>No se puede sincronizar la oferta ya que su estado es "{0}"</value>
+  </data>
+  <data name="SincronizarCRM" xml:space="preserve">
+    <value>Sincronizar con CRM.</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="ErrorOfertaBloqueada" xml:space="preserve">
+    <value>No es posible sincronizar la oferta en SAP porque está bloqueada en SAP CRM.</value>
+  </data>
+  <data name="ErrorSincronizacionSAP" xml:space="preserve">
+    <value>La oferta no se sincronizó correctamente.</value>
+  </data>
+  <data name="TextoFormularioOfertasLocal" xml:space="preserve">
+    <value>Listado de las ofertas almacenadas en el Generador</value>
+  </data>
+  <data name="ValorDescuentoDestino" xml:space="preserve">
+    <value>5DD</value>
+  </data>
+  <data name="FechaDesde" xml:space="preserve">
+    <value>Válida desde: {0}</value>
+  </data>
+  <data name="SAC082" xml:space="preserve">
+    <value>SAC082</value>
+  </data>
+  <data name="BuscadorClientes" xml:space="preserve">
+    <value>Buscador de clientes</value>
+  </data>
+  <data name="EliminandoOfertaSeleccionada" xml:space="preserve">
+    <value>Eliminando la oferta de la base de datos local</value>
+  </data>
+  <data name="ErrorConexionVPNCorreos" xml:space="preserve">
+    <value>Se ha producido un error al conectar con el entorno de CORREOS</value>
+  </data>
+  <data name="TxtReembolso275Min250" xml:space="preserve">
+    <value>Se cobrará sobre el valor del reembolso el porcentaje del 2,75 %, con un mínimo de 2,50 €</value>
+  </data>
+  <data name="OperacionSincronizacionCorrecta" xml:space="preserve">
+    <value>La operación de sincronización de datos con SAP ha finalizado satisfactoriamente.</value>
+  </data>
+  <data name="PidiendoCredencialesUsuario" xml:space="preserve">
+    <value>Validando conectividad con SAP CRM</value>
+  </data>
+  <data name="FechasFormularioIncorrectas" xml:space="preserve">
+    <value>Las fechas introducidas son incorrectas, revise la selección.</value>
+  </data>
+  <data name="Valor10Dias" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ErrorGenerarFichasFalloNingunaSeleccionada" xml:space="preserve">
+    <value>Debe seleccionar al menos una oferta para continuar con el proceso.</value>
+  </data>
+  <data name="NingunDestinoSeleccionadCopiado" xml:space="preserve">
+    <value>Aún no ha seleccionado un destino para ser copiado.</value>
+  </data>
+  <data name="ErrorGrTramoFalloDestinosSinDistribucion" xml:space="preserve">
+    <value>Existen grupos de tramos rellenos de algún destino para el que no se ha insertado distribución zonal en el documento EXCEL.</value>
+  </data>
+  <data name="TramoFinalTxT" xml:space="preserve">
+    <value>Tramo Final</value>
+  </data>
+  <data name="G1TxT" xml:space="preserve">
+    <value>G1</value>
+  </data>
+  <data name="ListadoOfertasCliente" xml:space="preserve">
+    <value>Listado de ofertas del cliente {0}</value>
+  </data>
+  <data name="G2TxT" xml:space="preserve">
+    <value>G2</value>
+  </data>
+  <data name="SincronizarDefinicionProductos" xml:space="preserve">
+    <value>Sincronizar la definición de los productos</value>
+  </data>
+  <data name="TransferenciaTexto" xml:space="preserve">
+    <value>Transferencia a</value>
+  </data>
+  <data name="NumeroRegistrosDevolverClientes" xml:space="preserve">
+    <value>200</value>
+  </data>
+  <data name="DesconectadoSAPCRM" xml:space="preserve">
+    <value>Desconectado de SAP CRM.</value>
+  </data>
+  <data name="SAC141" xml:space="preserve">
+    <value>SAC141</value>
+  </data>
+  <data name="SoloCaracteresNumericos" xml:space="preserve">
+    <value>Solo se pueden introducir caracteres numéricos.</value>
+  </data>
+  <data name="UsuarioLogeado" xml:space="preserve">
+    <value>Usuario: {0}</value>
+  </data>
+  <data name="ErrorMotivo" xml:space="preserve">
+    <value>Motivo: {0}</value>
+  </data>
+  <data name="TextoFormularioConfiguracion" xml:space="preserve">
+    <value>Productos seleccionados</value>
+  </data>
+  <data name="ConectadoSAPCRM" xml:space="preserve">
+    <value>Conectado a SAP CRM.</value>
+  </data>
+  <data name="LTM" xml:space="preserve">
+    <value>L.T.M.</value>
+  </data>
+  <data name="ListaConfiguracionGradoOfertaBE" xml:space="preserve">
+    <value>ListaConfiguracionGradoOfertaBE</value>
+  </data>
+  <data name="GenerandoExcel" xml:space="preserve">
+    <value>Generando documento EXCEL...</value>
+  </data>
+  <data name="TxtReembolso5Min650" xml:space="preserve">
+    <value>Se cobrará sobre el valor del reembolso el porcentaje del 5 %, con un mínimo de 6,50 €</value>
+  </data>
+  <data name="FormatoPorcentaje" xml:space="preserve">
+    <value>#,##0.00%;[Blue](-#,##0.00%);[Blue](@)</value>
+  </data>
+  <data name="DistribucionTxT" xml:space="preserve">
+    <value>Distribución</value>
+  </data>
+  <data name="DtoMaxTxT" xml:space="preserve">
+    <value>Dto. Máx.</value>
+  </data>
+  <data name="ClienteCabecera" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="ErrorActualizarStatusFalloNoGuardadoSAP" xml:space="preserve">
+    <value>No se puede actualizar el status porque la oferta seleccionada aún no existe en SAP CRM.</value>
+  </data>
+  <data name="DistribucionZonas" xml:space="preserve">
+    <value>Distribución Zonas</value>
+  </data>
+  <data name="ListaDestinoExcelBE" xml:space="preserve">
+    <value>ListaDestinoExcelBE</value>
+  </data>
+  <data name="G0TxT" xml:space="preserve">
+    <value>G0</value>
+  </data>
+  <data name="ErrorLeerCeldaNumEnvios" xml:space="preserve">
+    <value>No se ha podido calcular la facturación asociada al producto puesto que no se ha podido recuperar el valor del número de envíos.</value>
+  </data>
+  <data name="DescuentoCortoCalculadoTxT" xml:space="preserve">
+    <value>Dto. Calculado</value>
+  </data>
+  <data name="GuardandoContenidoFicherosExcel" xml:space="preserve">
+    <value>Guardando...</value>
+  </data>
+  <data name="ProductoSinDestinos" xml:space="preserve">
+    <value>Producto Sin Destinos</value>
+  </data>
+  <data name="NoHayRegistrosBusqueda" xml:space="preserve">
+    <value>No se han encontrado resultados.</value>
+  </data>
+  <data name="SumaDistribucionZonasDebeSumar100" xml:space="preserve">
+    <value>La suma de la distribución de zonas debe de ser 100%</value>
+  </data>
+  <data name="SumaDistribucionPuntosDebeSumar100" xml:space="preserve">
+    <value>La suma de distribución de puntos debe sumar el 100%.</value>
+  </data>
+  <data name="BotonPrecios" xml:space="preserve">
+    <value>Botón Precios</value>
+  </data>
+  <data name="ErrorSincronizarOfertaFalloSolapamientoTramos" xml:space="preserve">
+    <value>Solapamiento de tramos</value>
+  </data>
+  <data name="SAC057" xml:space="preserve">
+    <value>SAC057</value>
+  </data>
+  <data name="SumaDistribucionGrupoTramoZona" xml:space="preserve">
+    <value>Para el producto {0}, la suma de distribución de tramos del destino {1} debe sumar 100%.</value>
+  </data>
+  <data name="SumaDistribucionGrupoTramoDestino" xml:space="preserve">
+    <value>La suma de distribución de Grupo de tramos del destino {1} debe sumar 100%.</value>
+  </data>
+  <data name="DebeSeleccionarDestinoCopiarGrTramo" xml:space="preserve">
+    <value>Debe seleccionar destinos para realizar el copiado de la información</value>
+  </data>
+  <data name="S0281" xml:space="preserve">
+    <value>S0281</value>
+  </data>
+  <data name="ListaPrecios" xml:space="preserve">
+    <value>Lista Precios</value>
+  </data>
+  <data name="ConfirmacionEliminacionOferta" xml:space="preserve">
+    <value>Se va a eliminar la oferta "{0}" del cliente "{1}". {2}{2}¿Desea continuar?</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="TextoRepresentacionEmpresa" xml:space="preserve">
+    <value>en nombre y representación de $$NOMBREEMPRESA, CIF $$CIFEMPRESA,</value>
+  </data>
+  <data name="Vencimiento30Dias" xml:space="preserve">
+    <value>CC30</value>
+  </data>
+  <data name="AccionEliminarOfertaLocal" xml:space="preserve">
+    <value>Eliminar Oferta</value>
+  </data>
+  <data name="StatusEnProceso" xml:space="preserve">
+    <value>En Proceso</value>
+  </data>
+  <data name="DebeInsertarRegularidad" xml:space="preserve">
+    <value>El campo Regularidad es un campo obligatorio cuyo valor debe estar comprendido entre 1 y 365.</value>
+  </data>
+  <data name="SeleccionarProductosContrato" xml:space="preserve">
+    <value>Seleccionar los productos para generar el contrato.</value>
+  </data>
+  <data name="ListadoOfertasCorreosExpress" xml:space="preserve">
+    <value>Generación listado Fichas Correos Express</value>
+  </data>
+  <data name="ResumenProductoTxT" xml:space="preserve">
+    <value>Resumen Producto</value>
+  </data>
+  <data name="DescuentoCortoMaximoTxT" xml:space="preserve">
+    <value>Dto. Máximo</value>
+  </data>
+  <data name="ListaConfiguracionValorAnadidoBE" xml:space="preserve">
+    <value>ListaConfiguracionValorAnadidoBE</value>
+  </data>
+  <data name="NoHayDistribucionZonal" xml:space="preserve">
+    <value>No ha introducido ninguna distribución para los destinos del producto.</value>
+  </data>
+  <data name="ObtiendoOfertasClienteSAP" xml:space="preserve">
+    <value>Obteniendo las ofertas del cliente: {0}, almacenadas en SAP CRM</value>
+  </data>
+  <data name="Simulador" xml:space="preserve">
+    <value>Simulador.</value>
+  </data>
+  <data name="AccionConfigurarOfertaExcel" xml:space="preserve">
+    <value>Configurando Oferta...</value>
+  </data>
+  <data name="FichaDetrec" xml:space="preserve">
+    <value>Ficha Recogida</value>
+  </data>
+  <data name="S0287" xml:space="preserve">
+    <value>S0287</value>
+  </data>
+  <data name="GenerandoInformeTarifas" xml:space="preserve">
+    <value>Generando informe de tarifas</value>
+  </data>
+  <data name="IrATxT" xml:space="preserve">
+    <value>Ir a ...</value>
+  </data>
+  <data name="SumaTotal" xml:space="preserve">
+    <value>SUMA TOTAL</value>
+  </data>
+  <data name="NombreTxT" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="BuscandoClientes" xml:space="preserve">
+    <value>Buscando clientes en SAP CRM</value>
+  </data>
+  <data name="ErrorSincronizarSAP" xml:space="preserve">
+    <value>No se ha podido completar la operación de sincronización con SAP.</value>
+  </data>
+  <data name="SumaDistribucionGradosDebeSumar100" xml:space="preserve">
+    <value>La suma de distribución de grados debe sumar el 100%.</value>
+  </data>
+  <data name="FormatoNumerico" xml:space="preserve">
+    <value>#,##0.00€;[Blue](-#,##0.00€);[Blue](@)</value>
+  </data>
+  <data name="S0132" xml:space="preserve">
+    <value>S0132</value>
+  </data>
+  <data name="CeldaChange" xml:space="preserve">
+    <value>Celda Change</value>
+  </data>
+  <data name="ErrorCompletarOperacion" xml:space="preserve">
+    <value>No se ha podido completar la operación.</value>
+  </data>
+  <data name="ActualizandoCoeficientesUsuario" xml:space="preserve">
+    <value>Actualizando coeficientes del usuario</value>
+  </data>
+  <data name="SAC083" xml:space="preserve">
+    <value>SAC083</value>
+  </data>
+  <data name="FichaClienteGeneradaCorrrectamente" xml:space="preserve">
+    <value>El documento ficha de paquetería se ha generado correctamente. 
+¿Desea abrir la carpeta donde se ha generado?</value>
+  </data>
+  <data name="SincronizandoDefinicionProductos" xml:space="preserve">
+    <value>Sincronizando la definición de los productos con SAP CRM</value>
+  </data>
+  <data name="ErrorAutenticacionSAP" xml:space="preserve">
+    <value>Nombre de usuario o contraseña incorrectos. Posiblemente su usuario se encuentra bloqueado, contacte con Web Quorum.</value>
+  </data>
+  <data name="SAC143" xml:space="preserve">
+    <value>SAC143</value>
+  </data>
+  <data name="TransferenciaCodigoSAP" xml:space="preserve">
+    <value>004</value>
+  </data>
+  <data name="InsertarUsuarioPasswordObligatorios" xml:space="preserve">
+    <value>Por favor, ingrese el nombre de usuario y contraseña requeridos.</value>
+  </data>
+  <data name="ListadoOfertas" xml:space="preserve">
+    <value>Listado de Ofertas</value>
+  </data>
+  <data name="PorspectoValorBusqueda" xml:space="preserve">
+    <value>PRO</value>
+  </data>
+  <data name="ErrorComboNoRelleno" xml:space="preserve">
+    <value>Debe seleccionar un Código Rango válido.</value>
+  </data>
+  <data name="ErrorCopiarDestinosFalloDatosNoRellenos" xml:space="preserve">
+    <value>Debe seleccionar los productos y los destinos para poder realizar el copiado de información.</value>
+  </data>
+  <data name="ListaConfiguracionDestinoOfertaBE" xml:space="preserve">
+    <value>ListaConfiguracionDestinoOfertaBE</value>
+  </data>
+  <data name="SAC028" xml:space="preserve">
+    <value>SAC028</value>
+  </data>
+  <data name="SAC086" xml:space="preserve">
+    <value>SAC086</value>
+  </data>
+  <data name="SAC058" xml:space="preserve">
+    <value>SAC058</value>
+  </data>
+  <data name="ErrorGuardarDocumentoFormatoPDF" xml:space="preserve">
+    <value>Se ha completado la generación del documento, pero no se ha podido generar el archivo PDF ya que está abierto por el usuario. Cierre el documento y vuelva a generarlo.</value>
+  </data>
+  <data name="ConfirmacionEliminacionGrupoTramo" xml:space="preserve">
+    <value>Se va a eliminar el grupo de tramo seleccionado, ¿Desea continuar?</value>
+  </data>
+  <data name="TituloFormularioPrecios" xml:space="preserve">
+    <value>Informe Precios</value>
+  </data>
+  <data name="BotonTarifas" xml:space="preserve">
+    <value>Botón Tarifas</value>
+  </data>
+  <data name="ErrrorSeleccionProductos" xml:space="preserve">
+    <value>Ha seleccionado un conjunto de productos que por sí solos necesitan de la combinación con otros productos.
+Por favor, revise la selección de productos.</value>
+  </data>
+  <data name="Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="DebeIntroducirDatosCrearGrupoTramo" xml:space="preserve">
+    <value>Debe introducir todos los datos para crear el grupo de tramo.</value>
+  </data>
+  <data name="ErrorSincronizarFalloEnviosCero" xml:space="preserve">
+    <value>El número de envíos del producto {0} no puede ser 0.</value>
+  </data>
+  <data name="Txt1KgExtra003" xml:space="preserve">
+    <value>Hasta 1 kilogramo de peso 1,00 €, por cada kilogramo de peso adicional 0,03 €</value>
+  </data>
+  <data name="TextoRepresentacionAutonomo" xml:space="preserve">
+    <value>en su propio nombre y representación,</value>
+  </data>
+  <data name="OfertaCabecera" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="AsistenteConfiguracion" xml:space="preserve">
+    <value>Asistente Configuración</value>
+  </data>
+  <data name="FormatoPrecioCierto" xml:space="preserve">
+    <value>#,##0.00€</value>
+  </data>
+  <data name="S0134" xml:space="preserve">
+    <value>S0134</value>
+  </data>
+  <data name="ConfigurarGruposTramo" xml:space="preserve">
+    <value>Config. GruposTramo</value>
+  </data>
+  <data name="SAC084" xml:space="preserve">
+    <value>SAC084</value>
+  </data>
+  <data name="ErrorGuardadoConfiguracionOferta" xml:space="preserve">
+    <value>No se ha podido guardar la configuración de la oferta.</value>
+  </data>
+  <data name="S0280" xml:space="preserve">
+    <value>S0280</value>
+  </data>
+  <data name="ValorDescuentoPrecioCierto" xml:space="preserve">
+    <value>2PT</value>
+  </data>
+  <data name="DomiciliacionBancariaTexto" xml:space="preserve">
+    <value>Domiciliación Bancaria en</value>
+  </data>
+  <data name="DomiciliacionBancaria" xml:space="preserve">
+    <value>Domiciliación Bancaria</value>
+  </data>
+  <data name="SincronizandoDatosSAPCRM" xml:space="preserve">
+    <value>Sincronizando Datos con SAP CRM</value>
+  </data>
+  <data name="ListaConfiguracionTramoOfertaBE" xml:space="preserve">
+    <value>ListaConfiguracionTramoOfertaBE</value>
+  </data>
+  <data name="EnviosTxt" xml:space="preserve">
+    <value>Envíos</value>
+  </data>
+  <data name="ExcelWindow" xml:space="preserve">
+    <value>Excel Window</value>
+  </data>
+  <data name="DebeIndicarVACorrecto" xml:space="preserve">
+    <value>En el valor añadido {0} debe poner un número de valor añadido correcto.</value>
+  </data>
+  <data name="OfertaBE" xml:space="preserve">
+    <value>OfertaBE</value>
+  </data>
+  <data name="NumEnvios" xml:space="preserve">
+    <value>Num. Envíos</value>
+  </data>
+  <data name="Valor30Dias" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="GenerandoFichasCex" xml:space="preserve">
+    <value>Generando Fichas CEX</value>
+  </data>
+  <data name="TramoInicialTxT" xml:space="preserve">
+    <value>Tramo Inicial</value>
+  </data>
+  <data name="Advertencia" xml:space="preserve">
+    <value>Advertencia</value>
+  </data>
+  <data name="Advertencia_SAP" xml:space="preserve">
+    <value>Advertencia SAP CRM</value>
+  </data>
+  <data name="SumaDistribucionTramoZona" xml:space="preserve">
+    <value>El destino {0} tiene distribución pero su tramo asociado no suma el 100%.</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloGestorPrincipal" xml:space="preserve">
+    <value>Para  generar una nueva oferta el usuario debe ser gestor principal.</value>
+  </data>
+  <data name="ValorDescuentoTramo" xml:space="preserve">
+    <value>4DT</value>
+  </data>
+  <data name="CodigoEnProceso" xml:space="preserve">
+    <value>E0013</value>
+  </data>
+  <data name="TituloReportTarifas" xml:space="preserve">
+    <value>LISTADO DE TARIFAS DEL PRODUCTO</value>
+  </data>
+  <data name="CAMTxT" xml:space="preserve">
+    <value>CAM</value>
+  </data>
+  <data name="ErrorProductoRegularidadCero" xml:space="preserve">
+    <value>Producto {0} con regularidad cero en la oferta</value>
+  </data>
+  <data name="ResumenSimulacion" xml:space="preserve">
+    <value>Resumen Simulación</value>
+  </data>
+  <data name="ValidacionesProducto" xml:space="preserve">
+    <value>El producto "{0}" no cumple las validaciones.</value>
+  </data>
+  <data name="ConfiguracionTramos" xml:space="preserve">
+    <value>Configuración Tramos</value>
+  </data>
+  <data name="RealizandoGeneracionContrato" xml:space="preserve">
+    <value>Generando el contrato de la Oferta.</value>
+  </data>
+  <data name="SAC005" xml:space="preserve">
+    <value>SAC005</value>
+  </data>
+  <data name="RegistrosEncontrados" xml:space="preserve">
+    <value>Lista de resultados: Se han encontrado {0} Resultados.</value>
+  </data>
+  <data name="ErrorDevolucionesEnvios" xml:space="preserve">
+    <value>El número de devoluciones no puede ser mayor que el número de envíos.</value>
+  </data>
+  <data name="RegularidadTxT" xml:space="preserve">
+    <value>Regularidad</value>
+  </data>
+  <data name="FacturacionNetaTxT" xml:space="preserve">
+    <value>Facturación Neta</value>
+  </data>
+  <data name="AccionAccesoSAPCRM" xml:space="preserve">
+    <value>Acceso a SAP CRM</value>
+  </data>
+  <data name="ErrorAutenticacionExcepcion" xml:space="preserve">
+    <value>The remote server returned an error: (401) Unauthorized.</value>
+  </data>
+  <data name="TramoTxT" xml:space="preserve">
+    <value>Tramo</value>
+  </data>
+  <data name="CalcularProducto" xml:space="preserve">
+    <value>Calcular producto</value>
+  </data>
+  <data name="ResumenProductoVAsTxT" xml:space="preserve">
+    <value>Resumen Producto + VAs</value>
+  </data>
+  <data name="OfertaBloqueada" xml:space="preserve">
+    <value>OfertaBloqueada</value>
+  </data>
+  <data name="S0236" xml:space="preserve">
+    <value>S0236</value>
+  </data>
+  <data name="ModalidadNegociacionTxt" xml:space="preserve">
+    <value>Modalidad Negociación</value>
+  </data>
+  <data name="VAMenorQueEnvios" xml:space="preserve">
+    <value>El número del valor añadido "{0}" no puede ser mayor al número de envíos del producto.</value>
+  </data>
+  <data name="URBTxT" xml:space="preserve">
+    <value>URB</value>
+  </data>
+  <data name="SumaDistribucionListaPreciosDebeSumar100" xml:space="preserve">
+    <value>La suma de distribución de la lista de precios debe sumar el 100%.</value>
+  </data>
+  <data name="ConfirmacionEliminacionFirmante" xml:space="preserve">
+    <value>Se va a eliminar el firmante seleccionado, ¿Desea continuar?</value>
+  </data>
+  <data name="PreguntarEliminarOfertaExistente" xml:space="preserve">
+    <value>La oferta que quiere editar ya existe en el Generador. Si continúa con el proceso la oferta se sobreescribirá.
+¿Desea continuar?</value>
+  </data>
+  <data name="S0133" xml:space="preserve">
+    <value>S0133</value>
+  </data>
+  <data name="AccionObjetoLocal" xml:space="preserve">
+    <value>Datos locales del Gestor</value>
+  </data>
+  <data name="ValoresAnadidos" xml:space="preserve">
+    <value>Valores Añadidos</value>
+  </data>
+  <data name="GuardandoProductosOferta" xml:space="preserve">
+    <value>Guardando oferta...</value>
+  </data>
+  <data name="SincronizacionProductosFinalizado" xml:space="preserve">
+    <value>La sincronización de la definición de los productos ha finalizado correctamente.</value>
+  </data>
+  <data name="CampoDtoPCNumerico" xml:space="preserve">
+    <value>El campo Dto/PC debe ser numérico.</value>
+  </data>
+  <data name="InfoAccionBuscarOfertasFechas" xml:space="preserve">
+    <value>Obteniendo el listado de ofertas comprendidas en las fechas</value>
+  </data>
+  <data name="NingunProductoSeleccionadoCopiado" xml:space="preserve">
+    <value>Aún no ha seleccionado un producto para ser copiado.</value>
+  </data>
+  <data name="GradosTxT" xml:space="preserve">
+    <value>Grados</value>
+  </data>
+  <data name="CopiarDestino" xml:space="preserve">
+    <value>Copiar Destino</value>
+  </data>
+  <data name="RURTxT" xml:space="preserve">
+    <value>RUR</value>
+  </data>
+  <data name="RangoTxT" xml:space="preserve">
+    <value>Porcentaje de envíos para poblaciones de menos de 5.000 habitantes</value>
+  </data>
+  <data name="SolapamientoTramos" xml:space="preserve">
+    <value>En la configuración de esta oferta existen solapamiento de tramos entre distintos productos.</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloDatosIncoherentesFormulario" xml:space="preserve">
+    <value>No se puede generar una nueva oferta para el cliente seleccionado ya que existen datos incoherentes en el formulario.</value>
+  </data>
+  <data name="ListaPreciosTxT" xml:space="preserve">
+    <value>Lista de Precios</value>
+  </data>
+  <data name="Precios" xml:space="preserve">
+    <value>Precios</value>
+  </data>
+  <data name="SAC146" xml:space="preserve">
+    <value>SAC146</value>
+  </data>
+  <data name="ValorDescuentoGrupoTramo" xml:space="preserve">
+    <value>3DG</value>
+  </data>
+  <data name="TodoRiesgo" xml:space="preserve">
+    <value>Todo riesgo</value>
+  </data>
+  <data name="ValorPrecioCiertoGrupoTramo" xml:space="preserve">
+    <value>1PG</value>
+  </data>
+  <data name="ModoCobroChequeTalon" xml:space="preserve">
+    <value>Cheque o talón bancario</value>
+  </data>
+  <data name="GuardandoOfertaBBDD" xml:space="preserve">
+    <value>Guardando la oferta en Base de Datos.</value>
+  </data>
+  <data name="Confirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="FechaHasta" xml:space="preserve">
+    <value>Válida hasta: {0}</value>
+  </data>
+  <data name="StatusNoSincronizado" xml:space="preserve">
+    <value>No sincronizado</value>
+  </data>
+  <data name="PrecioCiertoCortoTxT" xml:space="preserve">
+    <value>PC</value>
+  </data>
+  <data name="RealizandoCalculosTarifas" xml:space="preserve">
+    <value>Realizando los cálculos necesarios para obtener la tarificación</value>
+  </data>
+  <data name="Porcentaje" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="SAC059" xml:space="preserve">
+    <value>SAC059</value>
+  </data>
+  <data name="TextoFormularioBuscador" xml:space="preserve">
+    <value>Buscador de clientes almacenados en SAP CRM</value>
+  </data>
+  <data name="FacturacionBrutaTxT" xml:space="preserve">
+    <value>Facturación Bruta</value>
+  </data>
+  <data name="SumaDistribucionZonaTramo" xml:space="preserve">
+    <value>El destino {0} no tiene distribución pero su tramo asociado sí que la tiene.</value>
+  </data>
+  <data name="SAC055" xml:space="preserve">
+    <value>SAC055</value>
+  </data>
+  <data name="SeleccionarProductoFalloCopiar" xml:space="preserve">
+    <value>Debe seleccionar los productos para realizar el copiado de la configuración</value>
+  </data>
+  <data name="PesoEnviosTxT" xml:space="preserve">
+    <value>% Peso envíos</value>
+  </data>
+  <data name="EdicionOferta" xml:space="preserve">
+    <value>Edición de la oferta</value>
+  </data>
+  <data name="UsuarioLogeadoComo" xml:space="preserve">
+    <value>Usuario: {0} conectado</value>
+  </data>
+  <data name="GenerandoInformePrecios" xml:space="preserve">
+    <value>Generando informe de precios</value>
+  </data>
+  <data name="CopiarGruposTramosDestinosConTramos" xml:space="preserve">
+    <value>Alguno de los destinos donde se quiere copiar la configuración del Grupo de Tramos ya dispone de registros insertados.
+
+¿Desea continuar con el proceso?</value>
+  </data>
+  <data name="ListaConfiguracionPuntoOfertaBE" xml:space="preserve">
+    <value>ListaConfiguracionPuntoOfertaBE</value>
+  </data>
+  <data name="SAC085" xml:space="preserve">
+    <value>SAC085</value>
+  </data>
+  <data name="Euro" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="AccionBuscarCliente" xml:space="preserve">
+    <value>Buscando Cliente</value>
+  </data>
+  <data name="SI" xml:space="preserve">
+    <value>SI</value>
+  </data>
+  <data name="Transferencia" xml:space="preserve">
+    <value>Transferencia</value>
+  </data>
+  <data name="ErrorAbrirManualFalloNoHayFichero" xml:space="preserve">
+    <value>No se puede abrir el manual de usuario de la aplicación ya que no se encuentra en su ubicación habitual. Contacte con su administrador de la aplicación.</value>
+  </data>
+  <data name="Tarifas" xml:space="preserve">
+    <value>Tarifas</value>
+  </data>
+  <data name="RecordarSeleccionarProductos" xml:space="preserve">
+    <value>Recuerde que para seleccionar el producto, necesita seleccionar al menos el producto S0132, S0133, S0235 o el S0236.</value>
+  </data>
+  <data name="SAC140" xml:space="preserve">
+    <value>SAC140</value>
+  </data>
+  <data name="ErrorEditarOfertaSAPFalloProductosNoContemplados" xml:space="preserve">
+    <value>La oferta que se esta intentando editar contiene productos que no pueden ser editados desde el generador.</value>
+  </data>
+  <data name="ActualizandoStatusOferta" xml:space="preserve">
+    <value>Actualizando el Status de la oferta.</value>
+  </data>
+  <data name="S0282" xml:space="preserve">
+    <value>S0282</value>
+  </data>
+  <data name="ErrorGenerarFichasCEX" xml:space="preserve">
+    <value>No se ha podido generar la ficha CEX de las siguientes ofertas:</value>
+  </data>
+  <data name="ActualizandoGruposTramo" xml:space="preserve">
+    <value>Actualizando grupos de tramo</value>
+  </data>
+  <data name="ProductoSinDestinosNoSincronizable" xml:space="preserve">
+    <value>El producto {1}, tiene un descuento final no válido para ser sincronizado.</value>
+  </data>
+  <data name="ErrorSincronizarFalloNoProductosSeleccionados" xml:space="preserve">
+    <value>No se puede completar la operación ya que no ha seleccionado ningún producto para sincronizar.</value>
+  </data>
+  <data name="CONTRATOGeneradoCorrrectamente" xml:space="preserve">
+    <value>El contrato se ha generado correctamente en {0}. 
+¿Desea abrir el documento?</value>
+  </data>
+  <data name="DistribucionCortaTxT" xml:space="preserve">
+    <value>Dist.</value>
+  </data>
+  <data name="NumValoresAnadidosTxT" xml:space="preserve">
+    <value>Nº Valores Añadidos</value>
+  </data>
+  <data name="SeleccionarRutaFichasCEX" xml:space="preserve">
+    <value>Seleccionar la carpeta donde se generarán las fichas CEX</value>
+  </data>
+  <data name="Prospecto" xml:space="preserve">
+    <value>Prospecto</value>
+  </data>
+  <data name="FormatoGeneral" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="TxtValorDeclarado15Min150" xml:space="preserve">
+    <value>Se cobrará el 1,5% sobre el valor declarado, con un mínimo de 1,50 €</value>
+  </data>
+  <data name="ErrorGuardarOfertaFalloNoHayProductos" xml:space="preserve">
+    <value>Para continuar con la simulación es necesario añadir al menos un producto.</value>
+  </data>
+  <data name="SAC081" xml:space="preserve">
+    <value>SAC081</value>
+  </data>
+  <data name="ListaConfiguracionListaPreciosBE" xml:space="preserve">
+    <value>ListaConfiguracionListaPreciosBE</value>
+  </data>
+  <data name="ErrorNumeroPositivo" xml:space="preserve">
+    <value>Debe introducir una valor positivo distinto del 0.</value>
+  </data>
+  <data name="ErrorSincronizarStatusFalloStatusNoEnProceso" xml:space="preserve">
+    <value>No se puede sincronizar la oferta ya que su status no es "{0}"</value>
+  </data>
+  <data name="TextoFormularioOfertasSAPCRM" xml:space="preserve">
+    <value>Listado de las ofertas almacenadas en SAP CRM</value>
+  </data>
+  <data name="ErrorConexionSAPCRM" xml:space="preserve">
+    <value>Se ha producido un error al realizar la conexión con el Entorno SAP CRM. Compruebe que dispone de conexión a internet.</value>
+  </data>
+  <data name="GuardandoDefeinicionProductosOferta" xml:space="preserve">
+    <value>Obteniendo la definición de los productos que contiene la oferta</value>
+  </data>
+  <data name="TituloFormularioTarifas" xml:space="preserve">
+    <value>Informe Tarifas</value>
+  </data>
+  <data name="DebeIndicarEnvios" xml:space="preserve">
+    <value>Debe indicar un número de envíos.</value>
+  </data>
+  <data name="FichaCliente" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="PestanaBalearesCanariasFichaCex" xml:space="preserve">
+    <value>Baleares y Canarias</value>
+  </data>
+  <data name="Anexo91" xml:space="preserve">
+    <value>091</value>
+  </data>
+  <data name="TextoIgualA" xml:space="preserve">
+    <value>Igual a</value>
+  </data>
+  <data name="ErrorGuardarOfertaFalloNoDefinicionProducto" xml:space="preserve">
+    <value>No se puede generar la oferta ya que no dispone de la definición de alguno de los productos.</value>
+  </data>
+  <data name="FichaDETRECGeneradaCorrrectamente" xml:space="preserve">
+    <value>El documento ficha de recogida se ha generado correctamente. 
+¿Desea abrir la carpeta donde se ha generado?</value>
+  </data>
+  <data name="BuscarClientes" xml:space="preserve">
+    <value>Buscar Clientes</value>
+  </data>
+  <data name="ErrorSincronizarOfertaFalloLosTramosDebenTenerPrecioCierto" xml:space="preserve">
+    <value>No se pueden sincronizar los productos seleccionados porque hay marcados tramos con distribución que no tienen asignado un precio.</value>
+  </data>
+  <data name="DeseaGuardarDatosAntesContinuar" xml:space="preserve">
+    <value>¿Desea guardar los datos antes de continuar?</value>
+  </data>
+  <data name="DetalleOferta" xml:space="preserve">
+    <value>Detalle de la oferta {0}</value>
+  </data>
+  <data name="ErrorSeleccionRutaFalloNoRuta" xml:space="preserve">
+    <value>Debe seleccionar una ruta válida para continuar con el proceso.</value>
+  </data>
+  <data name="DescuentoMaximoTxT" xml:space="preserve">
+    <value>Descuento Máximo</value>
+  </data>
+  <data name="ListaProductoOfertaBE" xml:space="preserve">
+    <value>ListaProductoOfertaBE</value>
+  </data>
+  <data name="Vencimiento10Dias" xml:space="preserve">
+    <value>CC10</value>
+  </data>
+  <data name="S0235" xml:space="preserve">
+    <value>S0235</value>
+  </data>
+  <data name="ErrorExcepcionControladaSistema" xml:space="preserve">
+    <value>Se ha producido un error durante la ejecución del Generador. 
+Por favor, vuelva a intentarlo y si el problema persiste contacte con su Administrador del Simulador.</value>
+  </data>
+  <data name="PieFormulario" xml:space="preserve">
+    <value>@ Copyright 2017 Sociedad Estatal Correos y Telégrafos, S.A., S.M.E. -  v.{0}</value>
+  </data>
+  <data name="CopiarConfiguracionProducto" xml:space="preserve">
+    <value>Copiar configuración a otro producto</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="TxtValor1Min204" xml:space="preserve">
+    <value>Se cobrará el 1% sobre el valor asegurado, con un mínimo de 2,04 €</value>
+  </data>
+  <data name="DispersionZonalTxT" xml:space="preserve">
+    <value>% Dispersión zonal</value>
+  </data>
+  <data name="ErrorValorDescuentomayor100" xml:space="preserve">
+    <value>No puede introducir como descuento un valor mayor del 100%</value>
+  </data>
+  <data name="ErrorActualizarOfertaFalloObtenerDatos" xml:space="preserve">
+    <value>No se puede sincronizar la oferta seleccionada ya que no se ha podido cargar la información desde la base de datos.</value>
+  </data>
+  <data name="NO" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="ClienteBE" xml:space="preserve">
+    <value>ClienteBE</value>
+  </data>
+  <data name="BotonCalcular" xml:space="preserve">
+    <value>Botón Calcular</value>
+  </data>
+  <data name="SeguroEstandar" xml:space="preserve">
+    <value>SAC059</value>
+  </data>
+  <data name="AccederCredencialesConsultarDatos" xml:space="preserve">
+    <value>Debe acceder con sus credenciales antes de poder consultar los clientes.</value>
+  </data>
+  <data name="RenunciaSeguro" xml:space="preserve">
+    <value>RENUNCIA EXPRESA AL SEGURO ESTANDAR
+El cliente renuncia expresamente al seguro estándar, como complemento al límite de responsabilidad establecido por la LCTTM, descrito en la condición 12 del anexo de CONDICIONES DEL SERVICIO, PAQ72 para todos los envíos del presente servicio contratado.</value>
+  </data>
+  <data name="AccionGuardarOfertaBBDD" xml:space="preserve">
+    <value>Se guardo la oferta correctamente</value>
+  </data>
+  <data name="InformacionExcelBE" xml:space="preserve">
+    <value>InformacionExcelBE</value>
+  </data>
+  <data name="TextoFormularioSincronizar" xml:space="preserve">
+    <value>Sincronizar oferta Generador en SAP CRM</value>
+  </data>
+  <data name="TxtReembolso275Min175" xml:space="preserve">
+    <value>Se cobrará sobre el valor del reembolso el porcentaje del 2,75 %, con un mínimo de 1,75 €</value>
+  </data>
+  <data name="TituloReportPrecios" xml:space="preserve">
+    <value>LISTADO DE PRECIOS DEL PRODUCTO</value>
+  </data>
+  <data name="ClienteValorBusqueda" xml:space="preserve">
+    <value>CLI</value>
+  </data>
+  <data name="OperacionActualizarEstadosCompleta" xml:space="preserve">
+    <value>Se ha completado la operación de actualización de estados de las ofertas seleccionadas.</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloDatosObligatorios" xml:space="preserve">
+    <value>Para  generar una nueva oferta se deben rellenar todos los datos obligatorios.</value>
+  </data>
+  <data name="ProductosRequeridos" xml:space="preserve">
+    <value>Si se selecciona el producto S0134, algunos de los productos S0132, S0133, S0234 o S0235 deben ser también seleccionados.</value>
+  </data>
+  <data name="SumaDistribucionPesosDebeSumar100" xml:space="preserve">
+    <value>En el producto {0}, la suma de la distribución de pesos debe sumar 100%.</value>
+  </data>
+  <data name="SAC145" xml:space="preserve">
+    <value>SAC145</value>
+  </data>
+  <data name="ErrorGuardarFicheroSistema" xml:space="preserve">
+    <value>Se ha producido un error al guardar el log del sistema.</value>
+  </data>
+  <data name="TxtReembolso6Min750" xml:space="preserve">
+    <value>Se cobrará sobre el valor del reembolso el porcentaje del 6 %, con un mínimo de 7,50 €</value>
+  </data>
+  <data name="ConfirmacionEliminacionDetallable" xml:space="preserve">
+    <value>Se va a eliminar el detallable seleccionado, ¿Desea continuar?</value>
+  </data>
+  <data name="ChequeTalonCodigoSAP" xml:space="preserve">
+    <value>006</value>
+  </data>
+  <data name="PestanaAsistenteFichaCex" xml:space="preserve">
+    <value>ASISTENTE</value>
+  </data>
+  <data name="ProductoNoSincronizable" xml:space="preserve">
+    <value>El destino {0} del producto {1} - {2}, tiene un descuento final del {3}%, que no es válido para ser sincronizado con SAP CRM.</value>
+  </data>
+  <data name="PestanaInformeFichaCex" xml:space="preserve">
+    <value>Informe</value>
+  </data>
+  <data name="EmptyCodOfertaSAP" xml:space="preserve">
+    <value> - </value>
+  </data>
+  <data name="FormatoNumeroEntero" xml:space="preserve">
+    <value>#0;[Blue](-#);[Blue](@)</value>
+  </data>
+  <data name="NuevaOferta" xml:space="preserve">
+    <value>Generación de una nueva oferta.</value>
+  </data>
+  <data name="DevolucionRequerida" xml:space="preserve">
+    <value>Si se selecciona los productos S0132, S0133, S0234,S0235 se debe seleccionar también el producto S0134.</value>
+  </data>
+  <data name="UsuarioNoReconocido" xml:space="preserve">
+    <value>El usuario o contraseña que ha introducido no se corresponde con ningún usuario válido.</value>
+  </data>
+  <data name="VaciandoContenidoExcel" xml:space="preserve">
+    <value>Vaciando el contenido del fichero Excel</value>
+  </data>
+  <data name="DescuentoCortoTxT" xml:space="preserve">
+    <value>Dto.</value>
+  </data>
+  <data name="DescuentoTxT" xml:space="preserve">
+    <value>DESCUENTO</value>
+  </data>
+  <data name="StatusSincronizado" xml:space="preserve">
+    <value>Sincronizado</value>
+  </data>
+  <data name="MailHTMLBody" xml:space="preserve">
+    <value>Se adjuntan los ficheros necesarios para el seguimiento de la consulta</value>
+  </data>
+  <data name="MailSubject" xml:space="preserve">
+    <value>Fichero Errores del Generador</value>
+  </data>
+  <data name="MailTo" xml:space="preserve">
+    <value>efatas@deloitte.es</value>
+  </data>
+  <data name="ExitoEnvioFicheroErrores" xml:space="preserve">
+    <value>Se ha enviado el fichero de errores correctamente.</value>
+  </data>
+  <data name="MensajeExito" xml:space="preserve">
+    <value>Éxito</value>
+  </data>
+  <data name="SeleccionarPoblacion" xml:space="preserve">
+    <value>Seleccionar</value>
+  </data>
+  <data name="ErrorConfiguracionDestino" xml:space="preserve">
+    <value>La distribución de los destinos y sus tramos no es válida.</value>
+  </data>
+  <data name="ErrorConfiguracionVA" xml:space="preserve">
+    <value>La configuración de los valores añadidos no es correcta</value>
+  </data>
+  <data name="imgBorrarSeleccionFiltro_ToolTip" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="ObtiendoDatosClienteSAP" xml:space="preserve">
+    <value>Obteniendo los datos del cliente: {0}</value>
+  </data>
+  <data name="CopiarConfiguracionProductoLargo" xml:space="preserve">
+    <value>Copiando configuración de los productos.</value>
+  </data>
+  <data name="ActualizandoBaseDatos" xml:space="preserve">
+    <value>Actualizando la definición de los productos en la Base de Datos.</value>
+  </data>
+  <data name="DistribucionIncorrectaGruposTramo" xml:space="preserve">
+    <value>Al menos uno de los tramos de cada grupo de tramo debe tener distribución.</value>
+  </data>
+  <data name="NoEsPosibleDescargarOfertaNoProductos" xml:space="preserve">
+    <value>No es posible descargar la oferta seleccionada ya que dicha oferta no contiene ningún producto que pueda ser gestionado por el Generador.</value>
+  </data>
+  <data name="ErrorConfiguracionDestinoGrTramo" xml:space="preserve">
+    <value>La configuración de los grupos de tramos es incorrecta.</value>
+  </data>
+  <data name="ErrorCopiarCeldasFormatoIncorrecto" xml:space="preserve">
+    <value>No se ha podido completar el copiado de algunas celdas porque su contenido no era numérico. Revise las celdas copiadas.</value>
+  </data>
+  <data name="ErrorCalcularDescuentosInforme" xml:space="preserve">
+    <value>No se puede generar el informe porque no se puede calcular los descuentos aplicables</value>
+  </data>
+  <data name="ReDescargandoOfertaAlmacenadaSAPCRM" xml:space="preserve">
+    <value>Volviendo a descargar la oferta de SAP CRM.</value>
+  </data>
+  <data name="ErrorDescargarOfertaSAP" xml:space="preserve">
+    <value>Se ha producido un error al descargar la oferta.</value>
+  </data>
+  <data name="ExitodescargarOferta" xml:space="preserve">
+    <value>La oferta se ha descargado correctamente.</value>
+  </data>
+  <data name="ErrorDescargarOfertaSAPNoHayCodigoSAP" xml:space="preserve">
+    <value>No se puede descargar la oferta ya que aún no ha sido sincronizada con SAP CRM</value>
+  </data>
+  <data name="ErrorGenerarOfertaNoProductos" xml:space="preserve">
+    <value>No se puede generar la oferta porque no se ha seleccionado ningún producto</value>
+  </data>
+  <data name="TextoErrorDescargaSapModNegociacion" xml:space="preserve">
+    <value>No se puede descargar la oferta seleccionada ya que alguno de sus productos no dispone de modalidad de negociación.</value>
+  </data>
+  <data name="FormatoEstandar" xml:space="preserve">
+    <value>Estándar</value>
+  </data>
+  <data name="ActualizandoPotencialidadUsuario" xml:space="preserve">
+    <value>Actualizando la potencialidad de los productos.</value>
+  </data>
+  <data name="ActualizandoStatusOfertas" xml:space="preserve">
+    <value>Actualizando el status de las ofertas.</value>
+  </data>
+  <data name="ErrorCerrarGeneradorInformeProceso" xml:space="preserve">
+    <value>Se está generando un informe de tarifas/precios. Hasta que no se termine el proceso no se puede cerrar el Generador.</value>
+  </data>
+  <data name="FormularioAbiertoDeseaCerrar" xml:space="preserve">
+    <value>El formulario de configuración de ofertas sigue abierto, ¿Desea continuar cerrando el generador?</value>
+  </data>
+  <data name="AclaracionKiloAdicional" xml:space="preserve">
+    <value>**A partir de 60Kg, la tarifa es por Kg adicional.</value>
+  </data>
+  <data name="Caracteristicas" xml:space="preserve">
+    <value>Características</value>
+  </data>
+  <data name="DebeRellenarValoresCaracteristicas" xml:space="preserve">
+    <value>Debe rellenar los posibles valores de las características del producto.</value>
+  </data>
+  <data name="StatusEnProcesoPosicion" xml:space="preserve">
+    <value>E0001</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloPersonaContacto" xml:space="preserve">
+    <value>Para  generar una nueva oferta el cliente debe tener una persona de contacto asignada.</value>
+  </data>
+  <data name="MensajeActualizarDefinicion" xml:space="preserve">
+    <value>Se ha detectado la actualización de los siguientes productos: {0}. Se va a proceder a su actualización tras cerrar este mensaje.</value>
+  </data>
+  <data name="ToolTipClonarOferta" xml:space="preserve">
+    <value>Permite crear una nueva oferta a partir de una existente.</value>
+  </data>
+  <data name="ToolTipEliminarOferta" xml:space="preserve">
+    <value>Elimina la oferta de la base de datos</value>
+  </data>
+  <data name="ToolTipReDescarga" xml:space="preserve">
+    <value>Permite volver a descargar la oferta ya sincronizada en SAP CRM</value>
+  </data>
+  <data name="ToolTipSincronizarGlobal" xml:space="preserve">
+    <value>Marca la oferta para ser sincronizada de forma global.</value>
+  </data>
+  <data name="ToolTipSincronizarOferta" xml:space="preserve">
+    <value>Permite sincronizar ofertas con SAP</value>
+  </data>
+  <data name="ToolTipSincronizarStatus" xml:space="preserve">
+    <value>Permite sincronizar el status</value>
+  </data>
+  <data name="ErrorOfertasNoSeleccionadas" xml:space="preserve">
+    <value>Debe seleccionar al menos una oferta para continuar con la sincronización.</value>
+  </data>
+  <data name="OfertasMultiplesSincronizadasMAL" xml:space="preserve">
+    <value>No se ha podido sincronizar ninguna de las ofertas seleccionadas.</value>
+  </data>
+  <data name="OfertasMultiplesSincronizadasOK" xml:space="preserve">
+    <value>Todas las ofertas seleccionadas se han sincronizado correctamente.</value>
+  </data>
+  <data name="MensajeSincronizarMultiple" xml:space="preserve">
+    <value>Las siguientes ofertas se han sincronizado correctamente:{2}{0}{2}Las siguientes ofertas no se han podido sincronizar:{2}{1}</value>
+  </data>
+  <data name="MensajeErroresSincronizar" xml:space="preserve">
+    <value>La oferta del cliente  {0} - {1}, no se ha podido sincronizar por los siguientes errores:{2}{3}{2}{2}</value>
+  </data>
+  <data name="ErrorGuardarOfertaModoLectura" xml:space="preserve">
+    <value>No se permite guardar la configuración de la Oferta ya que se encuentra en modo de "Sólo Lectura"</value>
+  </data>
+  <data name="MensajeGuardarOfertas" xml:space="preserve">
+    <value>Se va a actualizar la aplicación. ¿Desea mantener las ofertas almacenadas en local? Este proceso puede tardar varios minutos.</value>
+  </data>
+  <data name="btnAceptarCopiarOferta" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="FrmCopiarOfertaTittle" xml:space="preserve">
+    <value>Copiado de oferta</value>
+  </data>
+  <data name="rbCopiarOfertaCompleta" xml:space="preserve">
+    <value>Copiar la oferta completa</value>
+  </data>
+  <data name="rbCopiarOfertaEstructura" xml:space="preserve">
+    <value>Copiar solo la estructura de la oferta</value>
+  </data>
+  <data name="ErrorProductosDefinicionDesactualizada" xml:space="preserve">
+    <value>Los siguientes productos contienen una definición desactualizada. Será necesario volver a configurar/recalcular los siguientes productos.{0}{0}{1}</value>
+  </data>
+  <data name="ActualizandoDefinicionesProductos" xml:space="preserve">
+    <value>Actualizando la definición de los productos</value>
+  </data>
+  <data name="ErrorSincronizacionOferta" xml:space="preserve">
+    <value>La oferta no se ha podido sincronizar. Revise la configuración de los productos.</value>
+  </data>
+  <data name="ErrorSincronizacionOfertas" xml:space="preserve">
+    <value>Alguna de las ofertas no se han podido sincronizar. Revise la configuración de los productos.</value>
+  </data>
+  <data name="ErrorCopiarDestinoFalloNombreIgual" xml:space="preserve">
+    <value>No se permite copiar la configuraión dado que no es el mismo destino</value>
+  </data>
+  <data name="ResumenProductoVASComisionTXT" xml:space="preserve">
+    <value>* Comisión</value>
+  </data>
+  <data name="FormatoNumericoAnno" xml:space="preserve">
+    <value>#,##0.00€"/año";[Blue](-#,##0.00€"/año");[Blue](@)</value>
+  </data>
+  <data name="ResumenComisionTXT" xml:space="preserve">
+    <value>* Comisión</value>
+  </data>
+  <data name="GenerandoInformeResumen" xml:space="preserve">
+    <value>Generando informe resumen</value>
+  </data>
+  <data name="MensajeTemporalInformeResumen" xml:space="preserve">
+    <value>Característica "Informe resumen" no desarrollada todavía.</value>
+  </data>
+  <data name="ModificarProspecto" xml:space="preserve">
+    <value>Modificar Prospecto</value>
+  </data>
+  <data name="NuevoProspecto" xml:space="preserve">
+    <value>Crear un nuevo Prospecto</value>
+  </data>
+  <data name="TextoFormularioModificarProspecto" xml:space="preserve">
+    <value>Formulario para la modificación de un prospecto ya existente</value>
+  </data>
+  <data name="TextoFormularioNuevoProspecto" xml:space="preserve">
+    <value>Formulario para la creación de un nuevo prospecto</value>
+  </data>
+  <data name="ApartadoAreaVentas" xml:space="preserve">
+    <value>Área Ventas</value>
+  </data>
+  <data name="ApartadoClasificacion" xml:space="preserve">
+    <value>Clasificación</value>
+  </data>
+  <data name="ApartadoComunicacion" xml:space="preserve">
+    <value>Comunicacion</value>
+  </data>
+  <data name="ApartadoCuenta" xml:space="preserve">
+    <value>Cuenta</value>
+  </data>
+  <data name="ApartadoDatosAdicionales" xml:space="preserve">
+    <value>Datos Adicionales</value>
+  </data>
+  <data name="ApartadoDireccion" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="ErrorCampoNumerico" xml:space="preserve">
+    <value>El campo "{0}" del apartado "{1}" sólo puede ser de tipo numérico.</value>
+  </data>
+  <data name="ErrorCampoVacio" xml:space="preserve">
+    <value>El campo "{0}" del apartado "{1}" no puede estar vacío.</value>
+  </data>
+  <data name="ErrorComboNoSeleccionado" xml:space="preserve">
+    <value>Debe seleccionar un valor en el desplegable "{0}" del apartado "{1}".</value>
+  </data>
+  <data name="FormatoPrecioCiertoLargo" xml:space="preserve">
+    <value>#,#####0.00000€</value>
+  </data>
+  <data name="FormatoPrecioCiertoLargoModificacionExcel" xml:space="preserve">
+    <value>#,###,##0.00000€</value>
+  </data>
+  <data name="InformeDescuentoVA" xml:space="preserve">
+    <value>. Descuento aplicado </value>
+  </data>
+  <data name="MensajeErroresSincronizarMultiple" xml:space="preserve">
+    <value>Alguna de las ofertas no se ha podido sincronizar correctamente por los siguientes errores:{0} {1}</value>
+  </data>
+  <data name="MensajeNoConexion" xml:space="preserve">
+    <value>No ha sido posible establecer la conexión, por favor revise la configuaración de red. Puede conectarse en cualquier momento pulsando la opción conectar de la esquina superior derecha.</value>
+  </data>
+  <data name="MensajeErrorSeleccionProductoFrmIncremento" xml:space="preserve">
+    <value>Debe seleccionar un producto.</value>
+  </data>
+  <data name="ActualizandoProducto" xml:space="preserve">
+    <value>Actualizando producto</value>
+  </data>
+  <data name="Anexo" xml:space="preserve">
+    <value>Anexo</value>
+  </data>
+  <data name="ProcederActualizar" xml:space="preserve">
+    <value>Se va a proceder a actualizar la definición de los siguentes productos:</value>
+  </data>
+  <data name="VolviendoPantallaInicial" xml:space="preserve">
+    <value>Uno de los produtos de la oferta actual ha sido actualizado. Volverá a la pantalla inicial y deberá simular de nuevo la oferta.</value>
+  </data>
+  <data name="TermineDeEditarCelda" xml:space="preserve">
+    <value>Termine de editar la celda selecionada antes de realizar esta operación</value>
+  </data>
+  <data name="MensajeLimiteOfertas" xml:space="preserve">
+    <value>Se ha superado el límite de ofertas que pueden ser almacenadas en el simulador. Debe eliminar {0} ofertas para poder continuar con la operación.</value>
+  </data>
+  <data name="CompruebaConexionInternet" xml:space="preserve">
+    <value>Por favor, comprueba la conexión a internet.</value>
+  </data>
+  <data name="CodCaptacion" xml:space="preserve">
+    <value>Z001</value>
+  </data>
+  <data name="NotaComision" xml:space="preserve">
+    <value>* Comisión estimada según facturación neta del producto aplicable a ofertas de captación.</value>
+  </data>
+  <data name="NotaComisionHojaResumen" xml:space="preserve">
+    <value>* Comisiónes estimadas según facturaciónes netas de los productos aplicables a ofertas de captación.</value>
+  </data>
+  <data name="ItemTodos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="BuscandoOferta" xml:space="preserve">
+    <value>Realizando la búsqueda de la oferta.</value>
+  </data>
+  <data name="MensajeBuscarOfertaVacio" xml:space="preserve">
+    <value>Debe introducir un número de oferta para realizar la búsqueda.</value>
+  </data>
+  <data name="MensajeErrorBuscarOferta" xml:space="preserve">
+    <value>{1}</value>
+  </data>
+  <data name="MensajeProductoNoCalculado" xml:space="preserve">
+    <value>El producto seleccionado no está calculado. Debe calcularlo para poder aplicar un decremento o incremento a la facturación.</value>
+  </data>
+  <data name="ErrorRellenarDtoIncremento" xml:space="preserve">
+    <value>Debe seleccionar si desea aplicar un decremento o un incremento.</value>
+  </data>
+  <data name="ErrorRellenarOpcionDtoIncremento" xml:space="preserve">
+    <value>Debe seleccionar una opción para aplicar el descuento o incremento.</value>
+  </data>
+  <data name="ErrorRellenarTxtDtoIncremento" xml:space="preserve">
+    <value>Debe introducir un % aplicado a los tramos menores de 60kg.</value>
+  </data>
+  <data name="ErrorRellenarTxtDtoIncrementoExp" xml:space="preserve">
+    <value>Debe introducir un % aplicado a los tramos de expediciones.</value>
+  </data>
+  <data name="FormatoPorcentajeTexbox" xml:space="preserve">
+    <value>#,##</value>
+  </data>
+  <data name="SimulandoDescuento" xml:space="preserve">
+    <value>Simulando Descuento</value>
+  </data>
+  <data name="CodigoEnBorrador" xml:space="preserve">
+    <value>E0016</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="PCDto" xml:space="preserve">
+    <value>PC / Dto</value>
+  </data>
+  <data name="UnidadDeMedida" xml:space="preserve">
+    <value>Unidad de Medida</value>
+  </data>
+  <data name="Valores" xml:space="preserve">
+    <value>Valores</value>
+  </data>
+  <data name="Configurar" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="FrmConfigVA_cbModalidad_opcionDTO" xml:space="preserve">
+    <value>Descuento</value>
+  </data>
+  <data name="FrmConfigVA_cbModalidad_opcionPC" xml:space="preserve">
+    <value>Precio cierto</value>
+  </data>
+  <data name="txtColumnaEliminarCaracteristica" xml:space="preserve">
+    <value>Borrar_caracteristica</value>
+  </data>
+  <data name="txtColumnaEliminarCombinacion" xml:space="preserve">
+    <value>Borrar_combinacion</value>
+  </data>
+  <data name="txtUnidadDeMedida" xml:space="preserve">
+    <value>UnidadDeMedida</value>
+  </data>
+  <data name="txtNombreTarifaServicioEspera" xml:space="preserve">
+    <value>SERVICIO ESPERA</value>
+  </data>
+  <data name="txtCantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloNoSeleccionable" xml:space="preserve">
+    <value>El cliente que está intentando seleccionar no es seleccionable.</value>
+  </data>
+  <data name="ErrorFormatoIncorrecto" xml:space="preserve">
+    <value>El campo "{0}" del apartado "{1}" está en un formato incorrecto</value>
+  </data>
+  <data name="EliminarIndemnizacionPactada" xml:space="preserve">
+    <value>Eliminar indemnización pactada</value>
+  </data>
+  <data name="HabilitarIndemnizacionPactada" xml:space="preserve">
+    <value>Habilitar indemnización pactada</value>
+  </data>
+  <data name="EnviandoDatosProspecto" xml:space="preserve">
+    <value>Enviando datos del prospecto</value>
+  </data>
+  <data name="RecibiendoDatosProspecto" xml:space="preserve">
+    <value>Recibiendo datos del prospecto</value>
+  </data>
+  <data name="ActualizandoValoresCubicaje" xml:space="preserve">
+    <value>Actualizando posibles valores de cubicaje</value>
+  </data>
+  <data name="ProspectoCreado" xml:space="preserve">
+    <value>Prospecto creado</value>
+  </data>
+  <data name="ProspectoModificado" xml:space="preserve">
+    <value>Prospecto modificado</value>
+  </data>
+  <data name="RevisarOfertasPendientes" xml:space="preserve">
+    <value>Debe revisar las ofertas pendientes antes de sincronizar ya que sus descuentos máximos han variado. Las ofertas que se han podido ver afectadas son las siguientes:{0}</value>
+  </data>
+  <data name="ProductosAgrupacionEliminar" xml:space="preserve">
+    <value>Este producto no se puede eliminar durante la sincronización de la oferta. Por favor, accede al menú de edición de oferta para borrarlo.</value>
+  </data>
+  <data name="ProductosOfertaRecalcular" xml:space="preserve">
+    <value>Algunos de los productos de la oferta se han visto afectados por cambios en los descuentos, debemos recalcular esta oferta antes de sincronizar.</value>
+  </data>
+  <data name="OfertasNoSincronizadas" xml:space="preserve">
+    <value>Algunas ofertas no se han podido sincronizar porque existen cambios en los descuentos aplicados: {0}Es necesario simular estas ofertas y volver a calcularlas para que puedan ser sincronizadas.</value>
+  </data>
+  <data name="ProductosAfectadossTipologias" xml:space="preserve">
+    <value>Los siguientes productos de la oferta se han visto afectados por cambios en los descuentos máximos.{0}Reviselos para su conformidad.</value>
+  </data>
+  <data name="ActualizandoValoresAgrupacionesTipologia" xml:space="preserve">
+    <value>Actualizando información adicional</value>
+  </data>
+  <data name="Activar" xml:space="preserve">
+    <value>Activar</value>
+  </data>
+  <data name="Desactivar" xml:space="preserve">
+    <value>Desactivar</value>
+  </data>
+  <data name="ExpedicionesTxT" xml:space="preserve">
+    <value>EXPEDICIONES</value>
+  </data>
+  <data name="ExpMultibultoTxT" xml:space="preserve">
+    <value>Expediciones multibulto</value>
+  </data>
+  <data name="FormatoTxT" xml:space="preserve">
+    <value>Formato</value>
+  </data>
+  <data name="InternacionalTxT" xml:space="preserve">
+    <value>INTERNACIONAL</value>
+  </data>
+  <data name="NumBultosExpTxT" xml:space="preserve">
+    <value>Nº bultos por expedición</value>
+  </data>
+  <data name="PaisesTxT" xml:space="preserve">
+    <value>PAISES</value>
+  </data>
+  <data name="PorcExpMonoBultoTxT" xml:space="preserve">
+    <value>% Expediciones mono bulto</value>
+  </data>
+  <data name="PuntoAdmisionTxT" xml:space="preserve">
+    <value>Punto de admisión</value>
+  </data>
+  <data name="DebeInsertarFormato" xml:space="preserve">
+    <value>Debe informar el apartado Formato del bloque Internacional</value>
+  </data>
+  <data name="DebeInsertarPaises" xml:space="preserve">
+    <value>Debe informar el apartado Países del bloque Internacional</value>
+  </data>
+  <data name="DebeInsertarPuntoDeAdmision" xml:space="preserve">
+    <value>Debe informar el apartado Punto de admisisón del bloque Internacional</value>
+  </data>
+  <data name="DebeInsertarBultos" xml:space="preserve">
+    <value>El bloque Expediciones debe estar correctamente informado.</value>
+  </data>
+  <data name="DebeInsertarPorcentaje" xml:space="preserve">
+    <value>El bloque Expediciones debe estar correctamente informado.</value>
+  </data>
+  <data name="ErrorSSO" xml:space="preserve">
+    <value>Error Single Sign On</value>
+  </data>
+  
+  <data name="ErrorSSOAclarativo" xml:space="preserve">
+    <!-- JCNS. 30/04/2019. Cambio a petición de Juana Fernandez-->
+    <!--<value>Se ha producido un error al obtener el certificado de conexión con SAP. Por favor, compruebe que tiene acceso a internet, acceda a SAP Secure Login Client y compruebe que la conexión con SAP está activa. Si sigue teniendo problemas, contacte con Quorum. </value>-->
+    <value>Se ha producido un error al obtener el certificado de conexión con SAP. Por favor, compruebe que tiene acceso a la red de Correos, acceda a SAP Secure Login Client y compruebe que la conexión con SAP está activa. Si sigue teniendo problemas, contacte con el CAU. </value>
+
+  </data>
+  <data name="SeRecomiendaInformarCIF" xml:space="preserve">
+    <value>En la creación del prospecto se recomienda informar el campo CIF/NIF</value>
+  </data>
+  <data name="ErrorGenerarOfertaFalloNIFCIF" xml:space="preserve">
+    <value>Para generar una nueva oferta el cliente debe tener debidamente informados los datos fiscales (NIF/CIF)</value>
+  </data>
+  <data name="ValorSeleccionadoIncorrecto" xml:space="preserve">
+    <value>El valor seleccionado no es correcto con el producto padre indicado.</value>
+  </data>
+  <data name="PesoVolumetricoMaximoInforme" xml:space="preserve">
+    <value>Peso volumétrico máximo {0} kilos</value>
+  </data>
+  <data name="SAC002" xml:space="preserve">
+    <value>SAC002</value>
+  </data>
+  <data name="SAC045" xml:space="preserve">
+    <value>SAC045</value>
+  </data>
+  <data name="SAC047" xml:space="preserve">
+    <value>SAC047</value>
+  </data>
+  <data name="SAC050" xml:space="preserve">
+    <value>SAC050</value>
+  </data>
+  <data name="SAC051" xml:space="preserve">
+    <value>SAC051</value>
+  </data>
+  <data name="SAC052" xml:space="preserve">
+    <value>SAC052</value>
+  </data>
+  <data name="SAC053" xml:space="preserve">
+    <value>SAC053</value>
+  </data>
+  <data name="SAC061" xml:space="preserve">
+    <value>SAC061</value>
+  </data>
+  <data name="SAC062" xml:space="preserve">
+    <value>SAC062</value>
+  </data>
+  <data name="SAC063" xml:space="preserve">
+    <value>SAC063</value>
+  </data>
+  <data name="SAC064" xml:space="preserve">
+    <value>SAC064</value>
+  </data>
+  <data name="SAC065" xml:space="preserve">
+    <value>SAC065</value>
+  </data>
+  <data name="SAC066" xml:space="preserve">
+    <value>SAC066</value>
+  </data>
+  <data name="SAC067" xml:space="preserve">
+    <value>SAC067</value>
+  </data>
+  <data name="SAC068" xml:space="preserve">
+    <value>SAC068</value>
+  </data>
+  <data name="SAC069" xml:space="preserve">
+    <value>SAC069</value>
+  </data>
+  <data name="SAC070" xml:space="preserve">
+    <value>SAC070</value>
+  </data>
+  <data name="SAC079" xml:space="preserve">
+    <value>SAC079</value>
+  </data>
+  <data name="SAC097" xml:space="preserve">
+    <value>SAC097</value>
+  </data>
+  <data name="SAC098" xml:space="preserve">
+    <value>SAC098</value>
+  </data>
+  <data name="SAC100" xml:space="preserve">
+    <value>SAC100</value>
+  </data>
+  <data name="txtCoberturaMax15" xml:space="preserve">
+    <value>Cobertura de un máximo de 15 € por kilogramo transportado hasta un máximo de 500 € por envío. Descuento aplicado {0}%</value>
+  </data>
+  <data name="txtSuplemento08" xml:space="preserve">
+    <value>Suplemento de 0,80€. Descuento aplicado {0} %</value>
+  </data>
+  <data name="txtSuplemento080ConAdicional" xml:space="preserve">
+    <value>Suplemento de 0,80€. Descuento aplicado {0} %. Servicio adicional que permite recoger y hacer llegar al remitente de un envío la situación final de éste y, en algunos casos, sus estados intermedios, así como todos los datos referentes a su entrega, devolución, rechazo o caducidad, en formato electrónico.</value>
+  </data>
+  <data name="txtSuplemento080ConEstados" xml:space="preserve">
+    <value>Suplemento de 0,80€. Descuento aplicado {0} %. Servicio adicional que permite recoger y hacer llegar al remitente de un envío la situación final de éste y, en algunos casos, sus estados intermedios, así como todos los datos referentes a su entrega, devolución, rechazo o caducidad, en formato electrónico.</value>
+  </data>
+  <data name="txtSuplemento080ConFecha" xml:space="preserve">
+    <value>Suplemento de 0,80€. Descuento aplicado {0} %. Servicio que permite al cliente indicar una fecha concreta para la realización del primer intento de entrega de un envío.</value>
+  </data>
+  <!--//JCNS. INFORMES. TEXTOS y CÁCULOS VALOR AÑADIDO ERRONEOS-->
+  <!-- 
+  Cuando tiene un espacio en blanco entre los decimales y € no hace el calculo. Ver codigo en ValorAnadidoProductoPersistence.ObtenerReporteTarifasVA()
+  en la expresion regular tiene un comentario de IMPORTANTE!!
+    -->
+  <data name="txtSuplemento150Min150" xml:space="preserve">
+    <!--<value>Suplemento de 1,50% sobre el valor asegurado con un mínimo de 1,50 €. Descuento aplicado {0} %. Se podrá asegurar un envío por un máximo de 6.000 €.</value>-->
+    <value>Suplemento de 1,50% sobre el valor asegurado con un mínimo de 1,50€. Descuento aplicado {0} %. Se podrá asegurar un envío por un máximo de 6.000 €.</value>
+  </data>
+  <data name="txtSuplemento150Min150Max3000" xml:space="preserve">
+    <value>Suplemento de 1,50% sobre el valor asegurado con un mínimo de 1,50 €. Descuento aplicado {0} %. Se podrá asegurar un envío por un máximo de 3.000 €.</value>
+  </data>
+  <data name="txtSuplemento152" xml:space="preserve">
+    <value>Suplemento de 1,52€. Descuento aplicado {0} %. Servicio adicional que garantiza que la entrega del envío se realiza sólo y exclusivamente  al destinatario, previa identificación del mismo ante el empleado de Correos.</value>
+  </data>
+  <data name="txtSuplemento152ConFirma" xml:space="preserve">
+    <value>Suplemento de 10,00€. Descuento aplicado {0} %. Servicio Adicional que permite a cualquier empresa disponer de una solución para la entrega y recogida simultánea de cualquier tipo de documentación o mercancía, con la posibilidad de realizar cualquier acción adicional que demande el cliente (comprobación del contenido del envío devuelto, chequeo de documentación, recogida de firma, etc…).</value>
+  </data>
+  <data name="txtSuplemento152ConID" xml:space="preserve">
+    <value>Suplemento de 1,52€. Descuento aplicado {0} %. Servicio adicional que garantiza que la entrega del envío se realiza sólo y exclusivamente  al destinatario, previa identificación del mismo ante el empleado de Correos.</value>
+  </data>
+  <data name="txtSuplemento1Hasta1Kg" xml:space="preserve">
+    <value>Suplemento de 1€ hasta 1kg (0,03 € por kg adicional). Descuento aplicado {0} % Cobertura de un máximo de 15 € por kilogramo transportado hasta un máximo de 500 € por envío.</value>
+  </data>
+  <data name="txtSuplemento1Kg" xml:space="preserve">
+    <value>Suplemento de 1€ hasta 1kg (0,03 € por kg adicional). Descuento aplicado {0} %. Cobertura de un máximo de 15 € por kilogramo transportado hasta un máximo de 500 € por envío.</value>
+  </data>
+  <data name="txtSuplemento2" xml:space="preserve">
+    <value>Suplemento de 2€. Descuento aplicado {0} %. Servicio que permite al cliente la realización del primer intento de entrega en la franja horaria indicada por el remitente. Disponemos de 4 franjas horarias, que van desde las 9 a las 21 horas. Este servicio esta disponible en capitales de provincia.
+</value>
+  </data>
+  <data name="txtSuplemento275Min175" xml:space="preserve">
+    <value>Suplemento de 2,75% del valor a rembolsar, con un mínimo de 1,75€ por envío. Descuento aplicado {0} %. Incluye tasa de reembolso y el actual derecho de giro. Importe máximo del reembolso 2.499 €.</value>
+  </data>
+  <data name="AclaracionParaExpediciones" xml:space="preserve">
+    <value>* Para expediciones.</value>
+  </data>
+  <data name="ActualizandoEstadoSincronizacionOfertas" xml:space="preserve">
+    <value>Actualizando el estado de sincronización...</value>
+  </data>
+
+  <data name="ActualizandoDefinicionesProductosTARIFAS" xml:space="preserve">
+    <value>Actualizando la definición de los productos para aplicar las nuevas Tarifas. Esta operación puede tardar varios minutos</value>
+  </data>
+
+</root>

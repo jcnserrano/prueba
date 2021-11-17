@@ -1,0 +1,48 @@
+﻿
+namespace Correos.SimuladorOfertas.Common
+{
+    public enum AppSettingsEnum
+    {
+        PasswordProteccion,
+        RutaFichaCEX,
+        RutaFicheroLog,
+        RutaPlantillaFichaCliente,
+        RutaPlantillaFichaDetrec,
+        RutaManualAplicacion,
+        RutaManualNovedadesRTF,
+        RutaPlantillaContrato,
+        RutaCondicionesPaqueteria,
+        RutaCondicionesCEX,
+        RutaPlantillaTabla,
+        RutaPlantillaFirmantes,
+        RutaPlantilla091,
+        RutaPlantillaEtiquetador,
+        RutaPlantillaGeneral,        
+        RutaPlantillaAnexo,
+        RutaPlantillaInformeTarifas,
+        RutaPlantillaInformeTarifasVA,
+        RutaPlantillaInformeTarifasGT,
+        RutaPlantillaTablaSinDestino,
+        RutaPlantillaTablaAnexo97,        
+        RutaPlantillaLineaProducto,
+        RutaPlantillaBlanco,
+        RutaEjecucionSimulador,
+        RutaScripts,
+        RutaDescargaFicherosXML,
+        RutaSubidaFicherosXML,
+        RutaManualNovedades,
+        RutaPlantillaInformeTarifasPubliCorreo,
+        RutaImagen,
+        ModoLoginAdmin,
+        UsuarioGenerico,
+        PasswordUsuarioGenerico,
+        LimiteOfertas,
+        ModoLoginSSO,
+        RutaPortalSinCredenciales,
+        RutaPortalConCredenciales,
+        RutaIncidencias,
+        UsuariosDebug,
+        UsuarioConexion,
+        UsuarioPrueba
+    }
+}
